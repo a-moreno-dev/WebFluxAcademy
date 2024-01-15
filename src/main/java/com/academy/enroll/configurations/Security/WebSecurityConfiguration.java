@@ -34,8 +34,7 @@ public class WebSecurityConfiguration {
                 .authenticationManager(authenticationManager)
                 .securityContextRepository(securityContextRepository)
                 .authorizeExchange(req -> {
-                    req.pathMatchers("/login").permitAll();
-                    req.pathMatchers("/v2/login").permitAll();
+                    req.pathMatchers("/v1/auth/login").permitAll();
                     //req.pathMatchers("/v2/**").authenticated()
                     req.anyExchange().authenticated();
                 })

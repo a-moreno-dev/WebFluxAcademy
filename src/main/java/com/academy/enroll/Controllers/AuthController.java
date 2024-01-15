@@ -20,7 +20,7 @@ import reactor.core.publisher.Mono;
 import java.util.Date;
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("/v1/auth")
 @RequiredArgsConstructor
 public class AuthController {
 

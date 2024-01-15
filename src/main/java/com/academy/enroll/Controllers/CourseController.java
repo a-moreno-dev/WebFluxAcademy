@@ -27,7 +27,7 @@ import java.net.URI;
 @Slf4j
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/courses")
+@RequestMapping("/v/courses")
 public class CourseController {
 
     private final CourseMapper mapper;

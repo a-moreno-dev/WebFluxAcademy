@@ -28,7 +28,7 @@ import java.net.URI;
 @Slf4j
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/students")
+@RequestMapping("/v1/students")
 public class StudentController {
 
     private final StudentMapper mapper;

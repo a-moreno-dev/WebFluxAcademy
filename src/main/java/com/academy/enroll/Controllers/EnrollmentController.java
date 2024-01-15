@@ -26,7 +26,7 @@ import java.net.URI;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/enrollments")
+@RequestMapping("/v1//enrollments")
 public class EnrollmentController {
 
     private final EnrollmentMapper mapper;
