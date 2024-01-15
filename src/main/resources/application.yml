@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/academy
+
+server:
+  error:
+    include-exception: false
+    include-message: never
+    include-stacktrace: never
+
+jjwt:
+  secret: $2a$12$Jto.sWuZ7TSm/vUVgQGZjOZQ5Y6B//KNje1a5b4Kefv5Qp3Aawb3q
+  expiration: 2700
